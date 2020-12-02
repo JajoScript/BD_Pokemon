@@ -680,23 +680,45 @@ INSERT INTO PokemonAtrapado VALUES
        47, 21, 21, 30, 21, 41, 18, 4913,
        736, 15);
 
--- Kindra
+-- Bichos de Kindra
 INSERT INTO PokemonAtrapado VALUES
-       (6, "Duskull", 148, "Gentle", "Levitate", "Male",
-       63, 39, 63, 33, 77, 30, 31, 23833,
-       60241, 35),
-       (7, "Shuppet", 146, "Calm", "Insomnia", "Female",
-       77, 54, 36, 53, 38, 42, 31, 23833,
-       60241, 35);
+       (6, "Duskull", 148, "Gentle", "Levitate", "Male", 63, 39, 63, 33, 77, 30, 31, 23833, 60241, 35),
+       (7, "Shuppet", 146, "Calm", "Insomnia", "Female", 77, 54, 36, 53, 38, 42, 31, 23833, 60241, 35);
 
--- Archie
+-- Bichos de Archie
 INSERT INTO PokemonAtrapado VALUES
-       (8, "Mightyena", 11, "Serious", "Intimidate", "Male",
-       121, 91, 75, 66, 66, 75, 41, 68921,
-       5409, 2),
-       (9, "Crobat", 65, "Hardy", "Inner Focus", "Male",
-       133, 91, 83, 75, 83, 124, 41, 68921,
-       5409, 36),
-       (10, "Sharpedo", 98, "Hardy", "Rough Skin", "Male",
-       126, 121, 52, 100, 52, 100, 43, 99383,
-       5409, 3);
+       (8, "Mightyena", 11, "Serious", "Intimidate", "Male", 121, 91, 75, 66, 66, 75, 41, 68921, 5409, 2),
+       (9, "Crobat", 65, "Hardy", "Inner Focus", "Male", 133, 91, 83, 75, 83, 124, 41, 68921, 5409, 36),
+       (10, "Sharpedo", 98, "Hardy", "Rough Skin", "Male", 126, 121, 52, 100, 52, 100, 43, 99383, 5409, 3);
+
+-- Bichos de Vicho
+INSERT INTO PokemonAtrapado VALUES
+       (11, "Treecko", 1, "Adamant", "Air Lock", "Male", 122, 21, 55, 36, 46, 76, 31, 295814, 4932, 1),
+       (12, "Grovyle", 2, "Bashful", "Arena Trap", "Male", 31, 54, 36, 56, 27, 67, 48243, 4932, 2),
+       (13, "Sceptile", 3, "Bold", "Battle Armor", "Female", 21, 55, 36, 46, 46, 24, 92756, 4932, 3),
+       (14, "Torchic", 4, "Brave", "Blaze", "Female", 123, 90, 89, 56, 66, 55, 19, 19264, 4932, 4),
+
+-- Bichos de Javier
+INSERT INTO PokemonAtrapado VALUES
+       (15, "Combusken", 5, "Calm", "Cacophony", "Male", 124, 18, 99, 16, 58, 83, 10, 29733, 2466, 5),
+       (16, "Blaziken", 6, "Careful", "Chlorophyll", "Male", 124, 27, 33, 19, 38, 86, 12, 29494, 2466, 6),
+       (17, "Mudkip", 7, "Docile", "Clear Body", "Female", 125, 38, 22, 27, 26, 46, 29, 20492, 2466, 7),
+       (18, "Marshtomp", 8, "Docile", "Cloud Nine", "Female", 125, 191, 67, 29, 35, 36, 41, 10292, 2466, 8),
+       
+-- Bichos de Gonza
+INSERT INTO PokemonAtrapado VALUES
+       (19, "Swampert", 9, "Hardy", "Color Change", "Male", 126, 79, 74, 24, 98, 23, 10, 29582, 6666, 9),
+       (20, "Poochyena", 10, "Hasty", "Compound Eyes", "Male", 127, 87, 71, 34, 51, 43, 67, 10382, 6666, 10),
+       (21, "Mightyena", 11, "Impish", "Cute Charm", "Female", 128, 21, 57, 97, 32, 15, 26, 29472, 6666, 11),
+       (22, "Zigzagoon", 12, "Jolly", "Damp", "Female", 129, 91, 24, 66, 25, 75, 15, 90182, 12),
+
+
+
+
+
+
+
+
+
+
+
