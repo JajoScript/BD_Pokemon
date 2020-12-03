@@ -640,12 +640,12 @@ INSERT INTO Entrenador VALUES (33448, "Kiara", 2),
        (5409, "Archie", 6),
        (6901, "Andy", 0),
        (10490, "Maria", 0),
-       (60241, "Kindra", 0),
+       (60241, "Kindra", 8),
        (22687, "Lao", 0),
        (5099, "Valerie", 2),
        (2466, "Javier", 5),
        (4932, "Vicho", 6),
-       (6666, "Gonzalo", 0);
+       (6666, "Gonzalo", 8);
 
 INSERT INTO Agrupacion VALUES (1, "Team Aqua"),
        (2, "Fortree Gym");
@@ -656,56 +656,87 @@ INSERT INTO Pertenece VALUES (5409, 1, "Leader"),
        (22687, 1, "Grunt"),
        (5, 2, "Gym Leader");
 
--- Bichos de Kiara
+-- Bichos de Kiara [33448]
 INSERT INTO PokemonAtrapado VALUES
        (1, "Grovyle", 2, "Timid", "Overgrow", "Male", 56, 32, 27, 45, 34, 50, 20, 5903, 33448, 1),
        (2, "Zigzagoon", 12, "Timid", "Pickup", "Female", 31, 11, 14, 15, 15, 22, 12, 1781, 33448, 2),
        (3, "Ralts", 29, "Docile", "Trace", "Female", 41, 18, 17, 23, 18, 23, 17, 7242, 33448, 2);
 
--- Bichos de Bernie
+-- Bichos de Kindler Bernie [736]
 INSERT INTO PokemonAtrapado VALUES
        (4, "Slugma", 103, "Adamant", "Flame Body", "Male", 47, 26, 24, 31, 24, 17, 18, 4913, 736, 13),
        (5, "Wingull", 27, "Hardy", "Keen Eye", "Female", 47, 21, 21, 30, 21, 41, 18, 4913, 736, 15);
 
--- Bichos de Kindra
+-- Bichos de Kindra [60241]
 INSERT INTO PokemonAtrapado VALUES
        (6, "Duskull", 148, "Gentle", "Levitate", "Male", 63, 39, 63, 33, 77, 30, 31, 23833, 60241, 35),
        (7, "Shuppet", 146, "Calm", "Insomnia", "Female", 77, 54, 36, 53, 38, 42, 31, 23833, 60241, 35);
 
--- Bichos de Archie
+-- Bichos de Archie [5409]
 INSERT INTO PokemonAtrapado VALUES
        (8, "Mightyena", 11, "Serious", "Intimidate", "Male", 121, 91, 75, 66, 66, 75, 41, 68921, 5409, 2),
        (9, "Crobat", 65, "Hardy", "Inner Focus", "Male", 133, 91, 83, 75, 83, 124, 41, 68921, 5409, 36),
        (10, "Sharpedo", 98, "Hardy", "Rough Skin", "Male", 126, 121, 52, 100, 52, 100, 43, 99383, 5409, 3);
 
--- Bichos de Vicho
+-- Bichos de Vicho [4932]
 INSERT INTO PokemonAtrapado VALUES
        (11, "Treecko", 1, "Adamant", "Air Lock", "Male", 122, 21, 55, 36, 46, 76, 31, 295814, 4932, 1),
        (12, "Grovyle", 2, "Bashful", "Arena Trap", "Male", 31, 54, 36, 56, 27, 43, 67, 48243, 4932, 2),
        (13, "Sceptile", 3, "Bold", "Battle Armor", "Female", 21, 55, 36, 46, 46, 45, 24, 92756, 4932, 3),
        (14, "Torchic", 4, "Brave", "Blaze", "Female", 123, 90, 89, 56, 66, 55, 19, 19264, 4932, 4);
 
--- Bichos de Javier
+-- Bichos de Javier [2466]
 INSERT INTO PokemonAtrapado VALUES
        (15, "Combusken", 5, "Calm", "Cacophony", "Male", 124, 18, 99, 16, 58, 83, 10, 29733, 2466, 5),
        (16, "Blaziken", 6, "Careful", "Chlorophyll", "Male", 124, 27, 33, 19, 38, 86, 12, 29494, 2466, 6),
        (17, "Mudkip", 7, "Docile", "Clear Body", "Female", 125, 38, 22, 27, 26, 46, 29, 20492, 2466, 7),
        (18, "Marshtomp", 8, "Docile", "Cloud Nine", "Female", 125, 191, 67, 29, 35, 36, 41, 10292, 2466, 8);
        
--- Bichos de Gonza
+-- Bichos de Gonza [6666]
 INSERT INTO PokemonAtrapado VALUES
        (19, "Swampert", 9, "Hardy", "Color Change", "Male", 126, 79, 74, 24, 98, 23, 10, 29582, 6666, 9),
        (20, "Poochyena", 10, "Hasty", "Compound Eyes", "Male", 127, 87, 71, 34, 51, 43, 67, 10382, 6666, 10),
        (21, "Mightyena", 11, "Impish", "Cute Charm", "Female", 128, 21, 57, 97, 32, 15, 26, 29472, 6666, 11),
        (22, "Zigzagoon", 12, "Jolly", "Damp", "Female", 129, 91, 24, 66, 25, 75, 15, 90182, 6666, 12);
 
+-- Bichos de Leader Winona [5]
+INSERT INTO PokemonAtrapado VALUES                             
+       (23, "Linoone", 13, "Adamant", "Air Lock", "Male", 53, 15, 46, 44, 30, 16, 85, 2275, 5, 1),
+       (24, "Wurmple", 14, "Bashful", "Arena Trap", "Female", 19, 51, 12, 92, 24, 21, 65, 3571, 5, 2),
+       (25, "Silcoon", 15, "Bold", "Battle Armor", "Male", 34, 47, 62, 86, 90, 58, 58, 6758, 5, 3),
+       (26, "Beautifly", 16, "Brave", "Blaze", "Female", 58, 11, 63, 18, 42, 68, 79, 6410, 5, 4);
 
+-- Bichos de Bug Maniac Brent [1560]
+INSERT INTO PokemonAtrapado VALUES                     
+       (27, "Cascoon", 17, "Calm", "Cacophony", "Male", 98, 37, 43, 54, 31, 50, 99, 6362, 1560, 5),
+       (28, "Dustox", 18, "Careful", "Chlorophyll", "Female", 98, 35, 96, 33, 93, 32, 57, 6408, 1560, 6),
+       (29, "Lotad", 19, "Docile", "Clear Body", "Male", 88, 59, 38, 48, 45, 20, 92, 8988, 1560, 7),
+       (30, "Lombre", 20, "Gentle", "Cloud Nine", "Female", 55, 16, 49, 28, 70, 53, 88, 7179, 1560, 8);
 
+-- Bichos de Andy [6901]
+INSERT INTO PokemonAtrapado VALUES                     
+       (31, "Ludicolo", 21, "Hardy", "Color Change", "Male", 8, 100, 12, 22, 24, 86, 62, 8106, 6901, 9),
+       (32, "Seedot", 22, "Hasty", "Compound Eyes", "Female", 83, 64, 31, 50, 76, 47, 91, 5824, 6901, 10),
+       (33, "Nuzleaf", 23, "Impish", "Cute Charm", "Male", 40, 66, 68, 82, 29, 950, 52, 2132, 6901, 11),
+       (34, "Shiftry", 24, "Jolly", "Damp", "Female", 10, 60, 89, 97, 46, 26, 22, 3602, 6901, 12);
 
+-- Bichos de Maria [10490]
+INSERT INTO PokemonAtrapado VALUES                      
+       (35, "Taillow", 25, "Lax", "Drizzle", "Male", 91, 51, 87, 54, 39, 84, 93, 2379, 10490, 13),
+       (36, "Swellow", 26, "Lonely", "Drought", "Female", 69, 5, 80, 94, 67, 90, 81, 6500, 10490, 14),
+       (37, "Wingull", 27, "Mild", "Early Bird", "Male", 5, 3, 1, 14, 27, 28, 79, 5380, 10490, 15),
+       (38, "Pelipper", 28, "Modest", "Effect Spore", "Female", 9, 70, 2, 29, 21, 10, 87, 3881, 10490, 16);
 
+-- Bichos de Lao [22687]
+INSERT INTO PokemonAtrapado VALUES
+       (39, "Ralts", 29, "Naive", "Flame Body", "Male", 38, 30, 55, 26, 13, 7, 59, 5157, 22687, 17),
+       (40, "Kirlia", 30, "Naughty", "Flash Fire", "Female", 80, 20, 64, 23, 61, 41, 66, 5175, 22687, 18),
+       (41, "Gardevoir", 31, "Quiet", "Forecast", "Male", 17, 33, 76, 42, 58, 43, 75, 5835, 22687, 19),
+       (42, "Surskit", 32, "Quirky", "Guts", "Female", 73, 95, 89, 100, 27, 45, 71, 6623, 22687, 20);
 
-
-
-
-
-
+-- Bichos de Valerie [5099]
+INSERT INTO PokemonAtrapado VALUES
+       (43, "Masquerain", 33, "Rash", "Huge Power", "Male", 23, 72, 74, 77, 78, 40, 36, 3266, 5099, 21),
+       (44, "Shroomish", 34, "Relaxed", "Hustle", "Female", 48, 4, 25, 97, 82, 78, 56, 6336, 5099, 22),
+       (45, "Breloom", 35, "Sassy", "Hyper Cutter", "Male", 13, 69, 94, 77, 6, 99, 49, 2814, 5099, 23),
+       (46, "Slakoth", 36, "Serious", "Illuminate", "Female", 84, 67, 60, 85, 35, 39, 83, 3980, 5099, 24);
